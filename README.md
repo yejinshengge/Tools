@@ -11,6 +11,15 @@
 - 自动替换图片链接为本地路径
 - 支持多种图片格式
 
+### 2. Unity 预制体节点一致性检查工具 ([说明文档](PrefabNodeCompare/README.md))
+
+用于检查 Unity 项目中 Lua 代码和预制体文件之间 UI 节点一致性的工具。主要功能：
+- 从 Lua 代码中提取 UI 节点引用
+- 从 Unity 预制体文件中提取 GameObject 节点
+- 检查节点一致性，发现缺失或未使用的节点
+- 支持单文件或目录批量检查
+- 生成详细的检查报告
+
 ## 如何使用
 
 每个工具都在其独立的目录中，包含完整的源代码和使用说明。点击工具名称后的"说明文档"链接可以查看详细的使用方法。
@@ -19,11 +28,14 @@
 
 ```
 .
-├── README.md                 # 项目主文档
-├── MdImgDownloader/         # Markdown 图片下载工具
-│   ├── README.md           # 工具说明文档
-│   └── download_md_images.py # 工具源代码
-└── ...                      # 其他工具目录
+├── README.md                     # 项目主文档
+├── MdImgDownloader/              # Markdown 图片下载工具
+│   ├── README.md                 # 工具说明文档
+│   └── download_md_images.py     # 工具源代码
+├── PrefabNodeCompare/            # Unity 预制体节点检查工具
+│   ├── README.md                 # 工具说明文档
+│   └── prefab_node_compare.py    # 工具源代码
+└── ...                           # 其他工具目录
 ```
 
 ## 贡献
