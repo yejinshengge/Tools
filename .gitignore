@@ -1,1 +1,5 @@
 /.DS_Store
+.cursor/rules/myrule.mdc
+DirCompare/compare_config.json
+PrefabNodeCompare/config.json
+PrefabNodeCompare/node_check_results.txt

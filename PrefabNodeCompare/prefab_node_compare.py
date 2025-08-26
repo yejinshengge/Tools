@@ -28,8 +28,8 @@ class NodeChecker:
             # 匹配 self:GetObject("节点名") 和 self:GetObject("节点名", child) 等模式
             patterns = [
                 r'self:GetObject\s*\(\s*["\']([^"\']+)["\']',  # self:GetObject("_Btn_Video")
-                r'self:SetValue\s*\([^,]+,\s*["\']([^"\']+)["\']',  # self:SetValue(ui_do_type.Active, "_Btn_Continue", false)
-                r'self:AddListener\s*\([^,]+,\s*["\']([^"\']+)["\']',  # self:AddListener(..., "_Btn_Date", ...)
+                # r'self:SetValue\s*\([^,]+,\s*["\']([^"\']+)["\']',  # self:SetValue(ui_do_type.Active, "_Btn_Continue", false)
+                # r'self:AddListener\s*\([^,]+,\s*["\']([^"\']+)["\']',  # self:AddListener(..., "_Btn_Date", ...)
             ]
             
             for pattern in patterns:

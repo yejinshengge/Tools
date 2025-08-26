@@ -1,5 +1,5 @@
 {
-    "lua_file": "",
-    "prefab_file": "", 
+    "lua_file": "F:/BA/Assets/Lua/UClass/RankWindow/PlayerSelectCourtWindow.lua.txt",
+    "prefab_file": "F:/BA/Assets/data_new/prefab/prefab_ui/window/CreateRoomWindow/PlayerSelectCourtWindow_old.prefab", 
     "output_file": "node_check_results.txt"
 }
