@@ -39,6 +39,16 @@
 - 智能语言代码提取和验证
 - 在 jlesage/mkvtoolnix 容器中运行
 
+### 5. 颜色调色板转换器 ([说明文档](ColorToAseprite/README.md))
+
+将 JavaScript 数组格式的颜色数据转换为 GIMP Palette (.gpl) 格式的工具。主要功能：
+- 从 JavaScript 数组格式读取颜色数据
+- 将十六进制颜色值转换为 RGB 格式
+- 生成标准的 GIMP Palette (.gpl) 文件
+- 支持 Aseprite、GIMP、Photoshop 等软件
+- 灵活的命令行参数，自动文件命名
+- 完善的错误处理和友好的提示信息
+
 ## 如何使用
 
 每个工具都在其独立的目录中，包含完整的源代码和使用说明。点击工具名称后的"说明文档"链接可以查看详细的使用方法。
