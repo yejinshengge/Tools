@@ -1,0 +1,6 @@
+# Excel 转换所需的依赖库
+openpyxl>=3.0.0
+
+# 可选：使用 pandas 处理 Excel（推荐）
+# pandas>=1.3.0
+
