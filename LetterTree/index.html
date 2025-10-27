@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字母树练习工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>字母树练习工具</h1>
+        
+        <div class="difficulty-section">
+            <label for="difficulty">选择难度：</label>
+            <select id="difficulty">
+                <option value="1">简单 (5个字母, 2秒)</option>
+                <option value="2" selected>中等 (7个字母, 1.5秒)</option>
+                <option value="3">困难 (9个字母, 1秒)</option>
+                <option value="4">极难 (11个字母, 0.8秒)</option>
+            </select>
+        </div>
+
+        <div class="practice-section">
+            <div class="viewport" id="viewport">
+                <div class="placeholder">
+                    点击"开始练习"按钮
+                </div>
+            </div>
+
+            <button id="startBtn" class="btn btn-primary">开始练习</button>
+            <button id="showAnswerBtn" class="btn btn-secondary" style="display: none;">显示答案</button>
+        </div>
+
+        <div class="answer-section" id="answerSection" style="display: none;">
+            <div class="input-group">
+                <label>左侧字母：</label>
+                <input type="text" id="leftLetter" placeholder="输入左侧字母">
+            </div>
+            <div class="input-group">
+                <label>右侧字母：</label>
+                <input type="text" id="rightLetter" placeholder="输入右侧字母">
+            </div>
+            <button id="submitBtn" class="btn btn-success">确定</button>
+            
+            <div class="result" id="result"></div>
+        </div>
+
+        <div class="info-section">
+            <h3>使用说明：</h3>
+            <ul>
+                <li>选择适合你的难度等级</li>
+                <li>点击"开始练习"后，中央点周围的字母会快速闪烁</li>
+                <li>字母显示时间很短，保持眼睛聚焦在中间的点上</li>
+                <li>字母消失后，尝试回忆左右两侧的字母</li>
+                <li>输入答案后点击"确定"查看结果</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
