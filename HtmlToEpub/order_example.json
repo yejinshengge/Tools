@@ -1,0 +1,13 @@
+{
+  "order": [
+    "intro.html",
+    "chapter1.html",
+    "chapter2.html",
+    {
+      "path": "chapter3.html",
+      "title": "第三章：高级主题"
+    },
+    "conclusion.html"
+  ]
+}
+

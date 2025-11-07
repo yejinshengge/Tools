@@ -68,29 +68,16 @@
 - 完善的错误处理和下载统计
 - 特别优化了Unity文档网站的下载支持
 
-## 如何使用
+### 8. HTML转EPUB电子书工具 ([说明文档](HtmlToEpub/README.md))
 
-每个工具都在其独立的目录中，包含完整的源代码和使用说明。点击工具名称后的"说明文档"链接可以查看详细的使用方法。
-
-## 项目结构
-
-```
-.
-├── README.md                     # 项目主文档
-├── MdImgDownloader/              # Markdown 图片下载工具
-│   ├── README.md                 # 工具说明文档
-│   └── download_md_images.py     # 工具源代码
-├── PrefabNodeCompare/            # Unity 预制体节点检查工具
-│   ├── README.md                 # 工具说明文档
-│   └── prefab_node_compare.py    # 工具源代码
-├── DirCompare/                   # 目录文件名对比工具
-│   ├── README.md                 # 工具说明文档
-│   └── dir_compare.py            # 工具源代码
-├── MkvSubMerge/                  # MKV 字幕批量合并工具
-│   ├── README.md                 # 工具说明文档
-│   └── mkv_sub_merge.sh          # 工具源代码
-└── ...                           # 其他工具目录
-```
+将一组HTML文档转换为EPUB格式电子书的工具。主要功能：
+- 批量转换目录中的所有HTML文件为EPUB
+- 自动处理图片，嵌入到EPUB中
+- 智能清理HTML内容，移除脚本和样式标签
+- 支持自定义标题、作者、语言等元数据
+- 提供优化的阅读样式
+- 支持递归扫描子目录
+- 完善的错误处理和进度显示
 
 ## 贡献
 
